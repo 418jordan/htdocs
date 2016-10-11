@@ -1,5 +1,9 @@
 <?php include 'myportfolio/modular/designheader.php'; ?>
-
+<style>
+    .col-sm-3 img {
+        border-radius: 25px;
+    }
+</style>
 <body>
 
 
@@ -42,19 +46,19 @@
         <div class="row">
             <br>
             <div class="col-sm-3">
-                <img src="myportfolio/images/abouticon.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <a href="about.php"><img src="myportfolio/images/abouticon.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 <p>About</p>
             </div>
             <div class="col-sm-3"> 
-                <img src="myportfolio/images/projectsicon.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <a href="projects.php"> <img src="myportfolio/images/projectsicon.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 <p>Projects</p>    
             </div>
             <div class="col-sm-3"> 
-                <img src="myportfolio/images/designicon.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <a href="design.php"> <img src="myportfolio/images/designicon.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 <p>Design</p>    
             </div>
             <div class="col-sm-3"> 
-                <img src="myportfolio/images/contacticon.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <a href="contact.php"><img src="myportfolio/images/contacticon.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
                 <p>Contact</p>    
             </div>
              

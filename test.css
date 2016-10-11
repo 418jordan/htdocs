@@ -37,15 +37,11 @@ footer p {
 .navbar-inverse {
     background-color: black;
 }
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-   color: green; 
-}
-.navbar navbar-inverse navbar-fixed-top a:hover {
-    Color: Pink;
-}
+
+
 .navbar-inverse .navbar-brand {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 .navbar-nav {
@@ -58,7 +54,18 @@ footer p {
     box-shadow: none;
     width: auto;
 }
+ul:hover {
+    background-color: darkgray;
+    
+}
 
+.container-fluid {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.navbar .container-fluid {
+    padding-left: 1%;
+}
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
     .carousel-caption {
