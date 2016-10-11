@@ -1,0 +1,67 @@
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 1028px; /*slider height*/
+}
+.carousel .item img {
+    height: 100vh; /*img height*/
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: black;
+    padding: 25px;
+}
+footer p {
+    color: white;
+}
+.carousel-control {
+    color: black;
+}
+.carousel-indicators .active {
+    background-color: black;
+    height: 22px;
+    margin: 0;
+    width: 22px;
+}
+.carousel-indicators li {
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+}
+.navbar-inverse {
+    background-color: black;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+   color: green; 
+}
+.navbar navbar-inverse navbar-fixed-top a:hover {
+    Color: Pink;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: 0 100px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.navbar-collapse {
+    box-shadow: none;
+    width: auto;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; 
+    }
+}

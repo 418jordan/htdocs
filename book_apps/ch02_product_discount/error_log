@@ -1,0 +1,2 @@
+[23-Jan-2016 19:53:58 America/Denver] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home4/movieato/public_html/book_apps/ch02_product_discount/display_discount.php on line 12
+[28-Apr-2016 18:05:13 America/Denver] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home4/movieato/public_html/book_apps/ch02_product_discount/display_discount.php on line 12
