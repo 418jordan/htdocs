@@ -1,50 +1,16 @@
 <?php include 'myportfolio/modular/designheader.php'; ?>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <h3>I'm an adventurer</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-</div>
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <h3>I'm an adventurer</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-</div>
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <h3>I'm an adventurer</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-</div>
-
+<br>
+<br>
+<br>
  <div class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center">CONTACT INFO</h2>
+  <br>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p>If you have any questions, would like to request a resume or want to do business please fill out the following form or call my cell.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Utah, USA</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 385-399-3152</p>
     </div>
     <div class="col-sm-7">
       <div class="row">
@@ -64,5 +30,12 @@
     </div>
   </div>
 </div>
+<br>
 
+<div class="container-fluid bg-2 text-center">
+  <p>I am open to growing my skills and collaborating on projects.  I am looking for employment and freelance projects.  I will be graduating in April 2017 with a Degree from BYU-I in Web Development.  Please reach out to me if you have any questions.  Thanks! </p>
+
+</div>
+<br>
+<br>
 <?php include 'myportfolio/modular/designfooter.php'; ?>
