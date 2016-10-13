@@ -21,12 +21,16 @@
             <div class="item active">
                 <img class="img-responsive center-block" src="myportfolio/images/leaf.JPG" alt="Image" >
                 <div class="carousel-caption">
+                    <h2>Test caption</h2>
+                    <br>
                 </div>      
             </div>
 
             <div class="item">
                 <img class="img-responsive center-block" src="myportfolio/images/flower1.JPG" alt="Image" >
                 <div class="carousel-caption">
+                    <h2>Test caption</h2>
+                    <br>
 
                 </div>      
             </div>

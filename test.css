@@ -58,7 +58,13 @@ ul:hover {
     background-color: darkgray;
     
 }
-
+.rightfooterfloat {
+    float: right;
+    padding: 15px;
+}
+.leftfooterfloat {
+    float: left;
+}
 
 .container-fluid {
     padding-left: 15%;
