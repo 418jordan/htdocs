@@ -110,7 +110,7 @@ h1.banner {
 /* ---- header ---- */
 #Header {
 	float:left;
-	height:620px;
+	height:680px;
 }
 #Follow {
 	margin:-400px auto;
@@ -147,6 +147,7 @@ h1.banner {
 
 .evenrow {
 	width:100%;
+        height: 700px;
 }
 
 .evenrow p {
