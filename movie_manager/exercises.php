@@ -42,7 +42,7 @@ My site exercise page
                     <h1>Enhancements </h1>
                     <ul>
                         <li>Enhancement 2 </li>
-                        <li>Enhancement 4-1 </li>
+                        <li><a href="../movie_manager/enhancement4/index.php">Enhancement 4-1</a> </li>
                         <li>Enhancement 5-1</li>
                         <li>Enhancement 7-2</li>
                         <li>Enhancement 11-1</li>
