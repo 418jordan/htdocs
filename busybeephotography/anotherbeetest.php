@@ -4,10 +4,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="description" content="Barrel + BARC 24 Hour Challenge. The Barrel 24-Hour Challenge brings together the Barrel team, volunteers, and a nonprofit partner to accomplish big goals in a span of 24 hours." /> 
-	<meta name="keywords" content="barrel, barc, 24 hour challenge" />
+	<meta name="description" content="BUSY BEE PHOTOGRAPHY /> 
+	<meta name="keywords" content="Busy, Bee, Photography" />
 	<title>Barrel + BARC | 24 Hour Challenge</title>
-	<link rel="image_src" href="http://barrelny.com/24/img/fbimage.gif"/> 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" media="screen" href="960.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />

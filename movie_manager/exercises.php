@@ -30,7 +30,7 @@ My site exercise page
                         <li>Exercise 2-1 Assignment completed</li>
                         <li>Exercise 3-1 and CH 16 2.1 Assignments completed </li>
                         <li>Exercise 4-1 Assignments Completed </li>
-                        <li>Exercise 5-1 </li>
+                        <li>Exercise 5-1 Assignments Completed</li>
                        
                         <li>Exercise 7-2 </li>
                         <li>Exercise 8-2 </li>

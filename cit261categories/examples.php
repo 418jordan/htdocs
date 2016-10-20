@@ -25,14 +25,10 @@
             <li>HTML5 Tags - Video, Audio, and Canvas</li>
             <ul>
                 <li>Audio</li>
-                <li><audio controls>
-                        <source src="horse.ogg" type="audio/ogg">
-                        <source src="horse.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio> </li>
+
                 <li>
                     <audio controls preload="none" style="width:480px;">
-                        <source src="05 Topaz.mp3.m4a" type="audio/mp4" />
+                        <source src="05 Topaz.mp3.mp3" type="audio/mp3" />
                         <p>Your browser does not support HTML5 audio.</p>
                     </audio>
                 </li>
@@ -41,6 +37,13 @@
                         <source src="greyson.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>  </li>
+                <li>
+                    <video width="320" height="240" controls>
+                        <source src="greyson.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video> 
+                </li>
+
                 <li>Canvas </li>
                 <li>
                     <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
