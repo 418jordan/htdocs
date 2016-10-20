@@ -139,7 +139,8 @@ h1.banner {
 
 .oddrow, .evenrow {
 	display:block;
-	float:left;
+        	float:left;
+
 	padding:40px 0 40px 0;
 	position:relative;
 }

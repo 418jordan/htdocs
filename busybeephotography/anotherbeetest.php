@@ -55,7 +55,7 @@
             margin: -.5%;
         }
         ul {
-            margin: -21px 0;
+            margin: 11px 0;
         }
         html {
             background: black;
@@ -92,7 +92,7 @@
 	<div id="Frame">
 		<div id="BodyText">
 			
-		<div id="Header" class="evenrow" style="background:url(beesandgirl.jpg) repeat-y top center #1c1c1a">
+		<div id="Header" class="evenrow" style="background:url(forkinforrestgirlandbee2blurry.jpg) repeat-y top center #1c1c1a">
 
 		<h1 class="banner">BUSY BEE PHOTOGRAPHY</h1>
 	
@@ -112,7 +112,8 @@
 			</div>	
 		
 			<div class="evenrow" style="background:#5D316A;">
-				<div class="container_12">	
+				<div class="container_12">
+                                    <br>
 					<a name="myphotos" class="anchorlink"></a>
 					
 					</div>
@@ -135,7 +136,7 @@
                                         <img src="smallbackgroundsliderpics/7sacredpools.jpg" alt="images" >
                                             <img src="smallbackgroundsliderpics/arch.jpg" alt="images" >
                                                 <img src="smallbackgroundsliderpics/hawaiiflower.jpg" alt="images" >
-                                                <img src="smallbackgroundsliderpics/3hawaiitrees.jpg" alt="images" >
+
                                     </figure>             
                                 </div>
                             </header>
@@ -151,11 +152,11 @@
 
                             <header  >
                                 <div id="slidy-container">
-                                    <figure id="slidy2">
+                                    <figure id="slidy">
                                         <img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
                                             <img src="smallbackgroundsliderpics/bananas.jpg" alt="images" >
                                                 <img src="smallbackgroundsliderpics/bees.jpg" alt="images" >
-                                                 
+                                                    <img src="smallbackgroundsliderpics/mexicanroad.jpg" alt="images" >
                                                     
 <img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
                                     </figure>             
@@ -178,7 +179,7 @@
                                             <img src="smallbackgroundsliderpics/boats.jpg" alt="images" >
                                                 <img src="smallbackgroundsliderpics/cacuts.jpg" alt="images" >
                                                     <img src="smallbackgroundsliderpics/hotel.jpg" alt="images" >
-                                                        <img src="smallbackgroundsliderpics/ladybug.jpg" alt="images" >
+                                                        
                                       <img src="smallbackgroundsliderpics/boatandtrees.jpg" alt="images" >      
 
                                     </figure>             
@@ -196,11 +197,11 @@
 
                             <header  >
                                 <div id="slidy-container">
-                                    <figure id="slidy2">
+                                    <figure id="slidy">
                                         <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
                                             <img src="smallbackgroundsliderpics/cloudsonwater.jpg" alt="images" >
                                                 <img src="smallbackgroundsliderpics/dustfestival.jpg" alt="images" >
-                                                   
+                                                   <img src="smallbackgroundsliderpics/ladybug.jpg" alt="images" >
                                                     <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
                                     </figure>             
                                 </div>
@@ -222,7 +223,7 @@
                                             <img src="smallbackgroundsliderpics/grains.jpg" alt="images" >
                                                 <img src="smallbackgroundsliderpics/hawaiibeach.jpg" alt="images" >
                                                     <img src="smallbackgroundsliderpics/lavahotsprings.jpg" alt="images" >
-                                                        <img src="smallbackgroundsliderpics/leaf.jpg" alt="images" >
+                                                        
                                                         <img src="smallbackgroundsliderpics/flower1.jpg" alt="images" >
                                     </figure>             
                                 </div>
@@ -233,7 +234,121 @@
                     </li>
             </ul>
               </div>
+              <div class="fun">              
                             
+                            <ul>
+
+                <li> <div id=content >
+
+                        <div id=featured-articles>
+                        </div>
+                        <main>
+
+                            <header  >
+                                <div id="slidy-container">
+                                    <figure id="slidy">
+                                        <img src="smallbackgroundsliderpics/3hawaiitrees.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/7sacredpools.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/arch.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/hawaiiflower.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/3hawaiitrees.jpg" alt="images" >
+                                    </figure>             
+                                </div>
+                            </header>
+                        </main>
+                    </div>
+
+                    
+                    <li> <div id=content >
+
+                        <div id=featured-articles>
+                        </div>
+                        <main>
+
+                            <header  >
+                                <div id="slidy-container">
+                                    <figure id="slidy">
+                                        <img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/bananas.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/bees.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/mexicanroad.jpg" alt="images" >
+                                                    
+<img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
+                                    </figure>             
+                                </div>
+                            </header>
+                        </main>
+                    </div>
+
+                   </li>
+                     <li> <div id=content >
+
+                        <div id=featured-articles>
+                        </div>
+                        <main>
+
+                            <header  >
+                                <div id="slidy-container">
+                                    <figure id="slidy">
+                                        <img src="smallbackgroundsliderpics/boatandtrees.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/boats.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/cacuts.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/hotel.jpg" alt="images" >
+                                                        
+                                      <img src="smallbackgroundsliderpics/boatandtrees.jpg" alt="images" >      
+
+                                    </figure>             
+                                </div>
+                            </header>
+                        </main>
+                    </div>
+
+                    </li>
+                     <li> <div id=content >
+
+                        <div id=featured-articles>
+                        </div>
+                        <main>
+
+                            <header  >
+                                <div id="slidy-container">
+                                    <figure id="slidy">
+                                        <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/cloudsonwater.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/dustfestival.jpg" alt="images" >
+                                                   <img src="smallbackgroundsliderpics/ladybug.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
+                                    </figure>             
+                                </div>
+                            </header>
+                        </main>
+                    </div>
+
+                    </li>
+                     <li> <div id=content >
+
+                        <div id=featured-articles>
+                        </div>
+                        <main>
+
+                            
+                                <div id="slidy-container">
+                                    <figure id="slidy">
+                                        <img src="smallbackgroundsliderpics/flower1.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/grains.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/hawaiibeach.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/lavahotsprings.jpg" alt="images" >
+                                                        
+                                                        <img src="smallbackgroundsliderpics/flower1.jpg" alt="images" >
+                                    </figure>             
+                                </div>
+                            
+                        </main>
+                    </div>
+
+                    </li>
+            </ul>
+              </div>                            
 							
 						</div>
 					</div>
@@ -361,9 +476,9 @@
 </body>
 </html>
 <script>
-                        var timeOnSlide = 10,
+                        var timeOnSlide = 3,
                                 // the time each image will remain static on the screen, measured in seconds
-                                timeBetweenSlides = 2,
+                                timeBetweenSlides = .1,
                                 // the time taken to transition between images, measured in seconds
 
                                 // test if the browser supports animation, and if it needs a vendor prefix to do so
