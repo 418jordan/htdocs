@@ -13,15 +13,7 @@
     </head>
     <body>
         <ul>
-            <li>Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</li>
-            <li>Object Creation Functions, Inheritance, Properties, Methods, Instantiation</li>
-            <li>JSON Parse, Stringify</li>
-            <li>Local Storage API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects</li>
-            <li>DOM Manipulation Using createElement, appendChild, insertBefore, removeChild, etc.</li>
-            <li>Creating CSS3 Transitions and Animations in CSS and triggering them with JavaScript</li>
-            <li>Manipulating CSS Class Properties Using JavaScript</li>
-            <li>Using XMLHTTPRequest to Consume a JSON Web Service (AJAX)</li>
-            <li>Standard JavaScript Events Including those for Mobile Devices ( Ex. onTouchBegin, onLoad, etc.) and Animation and Transition Events</li>
+             
             <li>HTML5 Tags - Video, Audio, and Canvas</li>
             <ul>
                 <li>Audio</li>
@@ -62,11 +54,10 @@
                         ctx.fillStyle = grd;
                         ctx.fillRect(10, 10, 150, 80);
                     </script> </li>
+                
+                <li><a href="bluecircles.html">Circles canvas example</a></li>
             </ul>
-            <li>Designing, Defining, and Triggering CSS3 Transitions without Custom Libraries</li>
-            <li>Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries</li>
-            <li>Designing, Defining, and Triggering CSS3 Animations without Custom Libraries</li>
-            <li></li>
+            
 
         </ul>
 

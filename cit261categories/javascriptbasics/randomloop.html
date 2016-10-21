@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+<p id="question"></p>
+<p id="hint"></p>
+<p>
+  <input type="text" id="usr_answer" />
+</p>
+<button type="button" style="padding: 4px 22px; margin: 10px 0px 0px 0px;">OK</button>
+<div id="response"></div>
+        <script type="text/javascript">
+       
+
+       var question_1 = {
+  question: 'What is the largest animal on the earth?',
+  hint: 'This creature lives in the sea.',
+  answer: 'Blue Whale'
+};
+var question_2 = {
+  question: 'What animal is Shamoo?',
+  hint: 'He is a type of whale',
+  answer: 'Killer Whale'
+};
+var question_3 = {
+  question: 'What animal lived among the dinosaurs?',
+  hint: 'This animal looks like a dinosaur',
+  answer: 'Crocodile'
+};
+var question_4 = {
+  question: "Which animal has two humps on its back and can drink a lot of water?",
+  hint: 'They live in desserts',
+  answer: 'Camel'
+};
+
+
+var questions = [];
+questions[0] = question_1;
+questions[1] = question_2;
+questions[2] = question_3;
+questions[3] = question_4;
+
+function newQuestion() {
+  var r = Math.floor(Math.random() * (questions.length));
+  $('#question').html(questions[r].question);
+  $('button').unbind();
+  $('button').click(function() {
+    ($('#usr_answer').val() == questions[r].answer) ? goodAnswer(r): badAnswer(r);
+  });
+}
+
+function goodAnswer(r) {
+  $('#response').html('Good answer!');
+  $('#question').html('');
+  $('#hint').html('');
+  questions.splice(r, 1);
+  (questions.length == 0) ? $('#response').html('No More questions'): newQuestion();
+}
+
+function badAnswer(r) {
+  $('#hint').html(questions[r].hint);
+  $('#response').html('Please try again');
+}
+$(newQuestion());
+    </script>
+  
+
+
+</body>
+</html>
