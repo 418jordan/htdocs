@@ -82,16 +82,16 @@
 				<li><a href="#aboutme">ABOUT ME</a></li>
                                 <li><a href="#prices">PRICES</a></li>
 				<li><a href="#contactinfo">CONTACT INFO</a></li>
-				<li class="last"><a href="#?????">???????</a></li>
+				<li class="last"><a href="#backtotop">Back to Top</a></li>
 			</ul>
 			</div>
 		</div>
 
-	<a name="top"></a>
+	<a name="backtotop"></a>
 	<div id="Frame">
 		<div id="BodyText">
 			
-		<div id="Header" class="evenrow" style="background:url(forkinforrestgirlandbee2blurry.jpg) repeat-y top center #1c1c1a">
+		<div id="Header" class="evenrow" style="background:url(forkinforrestgirlandbee2blurry.jpg) repeat-y top center #000000">
 
 		<h1 class="banner">BUSY BEE PHOTOGRAPHY</h1>
 	
@@ -110,9 +110,18 @@
 				</div>	
 			</div>	
 		
-			<div class="evenrow" style="background:#5D316A;">
+			<div class="evenrow evenrow1">
 				<div class="container_12">
                                     <br>
+                                                          <br>
+
+                                                                                <br>
+
+                                                                                                      <br>
+<br>
+                                                          <br>
+
+                                                                                
 					<a name="myphotos" class="anchorlink"></a>
 					
 					</div>
@@ -120,7 +129,7 @@
                             
               <div class="fun">              
                             
-                            <ul>
+                      <ul>
 
                 <li> <div id=content >
 
@@ -233,6 +242,12 @@
                     </li>
             </ul>
               </div>
+
+
+                            <br>
+
+                                                            <br>
+
               <div class="fun">              
                             
                             <ul>
@@ -347,7 +362,8 @@
 
                     </li>
             </ul>
-              </div>                            
+              </div>        
+                                
 							
 						</div>
 					</div>
@@ -408,7 +424,7 @@
 				</div>
 			</div>
 		
-			<div class="evenrow" style="background: url(../myportfolio/images/abouticon.jpg) no-repeat #885D3B;">
+			<div class="evenrow" style="background: url(../myportfolio/images/abouticon.jpg) no-repeat #883C5D;">
 				<a name="contactinfo" class="anchorlink"></a>
 				<div class="container_12">
 					<div class="grid_6 alpha">
@@ -462,7 +478,7 @@
 		
 			<div class="evenrow footer" style="background:#49376D;">
 				<div class="container_12">
-				<div id="Footer"><a href="#top">Back to Top</a></div>
+				<div id="Footer"><a href="#backtotop">Back to Top</a></div>
 				</div>
 			</div>
 			
