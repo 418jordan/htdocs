@@ -203,11 +203,11 @@
                             <header  >
                                 <div id="slidy-container">
                                     <figure id="slidy">
-                                        <img src="smallbackgroundsliderpics/3hawaiitrees.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/7sacredpools.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/arch.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/hawaiiflower.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/3hawaiitrees.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/leaf.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/niagrabird.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/orangemexflower.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/lakeview.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/leaf.jpg" alt="images" >
                                     </figure>             
                                 </div>
                             </header>
@@ -217,23 +217,24 @@
                     
                     <li> <div id=content >
 
-                        <div id=featured-articles>
-                        </div>
-                        <main>
+                            <div id=featured-articles>
+                            </div>
+                            <main>
 
-                            <header  >
-                                <div id="slidy-container">
-                                    <figure id="slidy">
-                                        <img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/bananas.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/bees.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/mexicanroad.jpg" alt="images" >                                                    
-                                        <img src="smallbackgroundsliderpics/archespillars.jpg" alt="images" >
-                                    </figure>             
-                                </div>
-                            </header>
-                        </main>
-                    </div>
+                                <header  >
+                                    <div id="slidy-container">
+                                        <figure id="slidy">
+                                            <img src="smallbackgroundsliderpics/parrotsheadcocked.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/riverreflection.jpg" alt="images" >                                                    
+
+                                                    <img src="smallbackgroundsliderpics/pinkflowerbursts.jpg" alt="images" >
+                                                        <img src="smallbackgroundsliderpics/redandyellowflower.jpg" alt="images" >
+                                                            <img src="smallbackgroundsliderpics/parrotsheadcocked.jpg" alt="images" >
+                                                                </figure>             
+                                                                </div>
+                                                                </header>
+                                                                </main>
+                                                                </div>
 
                    </li>
                      <li> <div id=content >
@@ -245,11 +246,11 @@
                             <header  >
                                 <div id="slidy-container">
                                     <figure id="slidy">
-                                        <img src="smallbackgroundsliderpics/boatandtrees.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/boats.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/cacuts.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/hotel.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/boatandtrees.jpg" alt="images" >      
+                                        <img src="smallbackgroundsliderpics/seals.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/sideshotflower.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/singlehawaiitree.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/specialflower.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/seals.jpg" alt="images" >      
 
                                     </figure>             
                                 </div>
@@ -267,11 +268,11 @@
                             <header  >
                                 <div id="slidy-container">
                                     <figure id="slidy">
-                                        <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/cloudsonwater.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/dustfestival.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/ladybug.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/capoiera.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/treeinslotcanyon.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/whiteflower.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/yellowflowers.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/skyleaves.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/treeinslotcanyon.jpg" alt="images" >
                                     </figure>             
                                 </div>
                             </header>
@@ -288,11 +289,12 @@
                             
                                 <div id="slidy-container">
                                     <figure id="slidy">
-                                        <img src="smallbackgroundsliderpics/flower1.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/grains.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/hawaiibeach.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/lavahotsprings.jpg" alt="images" >
-                                        <img src="smallbackgroundsliderpics/flower1.jpg" alt="images" >
+                                        <img src="smallbackgroundsliderpics/monterreysea.jpg" alt="images" >
+                                            <img src="smallbackgroundsliderpics/pillars.jpg" alt="images" >
+                                                <img src="smallbackgroundsliderpics/cascade.jpg" alt="images" >
+                                                    <img src="smallbackgroundsliderpics/yellowleaves2.jpg" alt="images" >
+
+                                        <img src="smallbackgroundsliderpics/monterreysea.jpg" alt="images" >
                                     </figure>             
                                 </div>
                             
@@ -365,7 +367,7 @@
 		
 			<div class="evenrow footer" style="background:#49376D;">
             <div class="container_12">
-		<div id="Footer"><a href="backtotop">Back to Top</a></div>
+		<div id="Footer"><a href="#backtotop">Back to Top</a></div>
             </div>
 	</div>
     </body>
