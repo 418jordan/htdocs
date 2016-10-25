@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="background:url(honeybeesreducedsize.png)repeat-y bottom center; ">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="description" content="BUSY BEE PHOTOGRAPHY /> 
@@ -51,7 +51,6 @@
 			</div>	
 		
 			<div class="evenrow evenrow1">
-                            <img  src="honeycombblacktwoside2.jpg" style="height: 200px; margin-top: -40px;">
 				<div class="container_12">
                                     <br>
                                     <br>
@@ -301,33 +300,18 @@
 					</div>
 				</div>
 			</div>	
-                        <br></br>
-                        <br>
-   <div style="background:url(honeybees.png); height: 1000px;">
+                        
 
-			<div class="container_12">	
+                        <div class="container_12" style="margin-top: -100px;">	
 				<div class="oddrow evenrow2">	
-					<a name="aboutme" class="anchorlink"></a>
-                                        <p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
-
-Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
-
-Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Cetero alienum mei id, veri clita numquam ex eam. Ad putent volutpat euripidis sea, ex eam illum quaeque vituperata. Nec veritus perpetua an, verterem gloriatur id vix, dico alia apeirian et est.
-
-Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
-
-Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
-				</div>
 				
-                       
-	
-				</div>
-                                    <div class="oddrow evenrow2">
+                                                <div style="background:URL(honeycombblacktwoside2.jpg); height: 400; border-radius: 20px; margin-top: -250px;">
+                            <a name="aboutme" class="anchorlink"></a>
 
-                                        <div class="container_12">
-                                            <a name="prices" class="anchorlink"></a>
-
-<p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+                            <h1>About Me</h1>
+                            <div style="background-color: #000000;">
+                                <br>
+                            <p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
 
 Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
 
@@ -336,21 +320,18 @@ Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Ce
 Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
 
 Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
+                                               
+                                                                            <br>
+                                            <br>	
+                                                 <br>
+                                            <br>
+                                                <div style="background:URL(honeycombblacktwoside2.jpg); height: 400; border-radius: 20px;">
+                            <a name="prices" class="anchorlink"></a>
 
-
-
-                                        </div>
-                                    </div>
-                                                            
-							
-					
-			
-			
-			<div class="container_12">
-				<div class="oddrow evenrow2">
-				<a name="contactinfo" class="anchorlink"></a>
-					
-	<p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+                            <h1>Prices</h1>
+                            <div style="background-color: #000000;">
+                                <br>
+                            <p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
 
 Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
 
@@ -359,18 +340,44 @@ Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Ce
 Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
 
 Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
+                                             
+                                                                            <br>
+                                            <br>	
+                                                 <br>
+                                            <br>
+                                                <div style="background:URL(honeycombblacktwoside2.jpg); height: 400; border-radius: 20px; margin-bottom: 150px; ">
+                            <a name="contactinfo" class="anchorlink"></a>
 
-							
+                            <h1>Contact Info</h1>
+                            
+                            <div style="background-color: #000000;">
+                                <br>
+                            <p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+
+Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
+
+Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Cetero alienum mei id, veri clita numquam ex eam. Ad putent volutpat euripidis sea, ex eam illum quaeque vituperata. Nec veritus perpetua an, verterem gloriatur id vix, dico alia apeirian et est.
+
+Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
+
+Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
+                                             <br>
+                            </div>
+
+                                         </div>
+                                                <br>
+                                            <br>	
+                                                 <br>
+                                            <br>
+                                                
 						
 					</div>
 				</div>
-		
-                                        </div>
-			<div class="evenrow footer" style="background:#000000;">
-            <div class="container_12">
-		<div id="Footer"><a href="#backtotop">Back to Top</a></div>
-            </div>
-	</div>
+                                            <br>	
+                                                 <br>
+                                            <br>
+                                              
+			
     </body>
 </html>
 <script>
