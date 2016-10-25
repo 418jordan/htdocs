@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" style="background:url(honeybeesreducedsize.png)repeat-y bottom center; ">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="description" content="BUSY BEE PHOTOGRAPHY /> 
@@ -42,31 +42,22 @@
 			
 		<div id="Header" class="evenrow" style="background:url(forkinforrestgirlandbee2blurry.jpg) repeat-y top center #000000">
 
-		<h1 class="banner">BUSY BEE PHOTOGRAPHY</h1>
 	
 		</div>
 		
-			<div class="container_12">
-				<div class="oddrow">
-					<div id="joinus" class="grid_6 alpha">
-						<h2>???????????</h2>
-						</div>
-						<div id="joinustext"class="grid_6 omega">
-							<p>??????????????????????</p>
-							<p>???????????????????????</p>
-						</div>
-					</div>
+                    
+					
 				</div>	
 			</div>	
 		
 			<div class="evenrow evenrow1">
+                            <img  src="honeycombblacktwoside2.jpg" style="height: 200px; margin-top: -40px;">
 				<div class="container_12">
                                     <br>
                                     <br>
-                                    <br>
-                                    <br>
-                                    <br>    
+                                       
                                                           <br>
+                                          
 
                                                                                 
 					<a name="myphotos" class="anchorlink"></a>
@@ -310,40 +301,41 @@
 					</div>
 				</div>
 			</div>	
-			
-			<div class="container_12">
-				<div class="evenrow">
-				<a name="contactinfo" class="anchorlink"></a>
-					
-		
-							
-						
-					</div>
-				</div>
+                        <br></br>
+                        <br>
+   <div style="background:url(honeybees.png); height: 1000px;">
+
 			<div class="container_12">	
-				<div class="oddrow">	
-					<a name="prices" class="anchorlink"></a>
+				<div class="oddrow evenrow2">	
+					<a name="aboutme" class="anchorlink"></a>
+                                        <p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+
+Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
+
+Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Cetero alienum mei id, veri clita numquam ex eam. Ad putent volutpat euripidis sea, ex eam illum quaeque vituperata. Nec veritus perpetua an, verterem gloriatur id vix, dico alia apeirian et est.
+
+Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
+
+Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
+				</div>
 				
-				</div>
-				<div class="grid_4 omega">
-					<div class="barrel">
-						<img src="../myportfolio/images/tree.gif" alt="info"/>
-						<h3>About Barrel/</h3>
-						<div id="BarrelSlideshow">
-							<div class="photoslide"><img src="../myportfolio/images/abouticon.jpg" alt="Barrel" /></div>
-						
-						</div>
-						<p>??????????????/.</p>
-						<p>??????????</p>
-					</div>
-				</div>
+                       
 	
 				</div>
-                                    <div class="evenrow evenrow1">
+                                    <div class="oddrow evenrow2">
 
                                         <div class="container_12">
-                                            <a name="aboutme" class="anchorlink"></a>
+                                            <a name="prices" class="anchorlink"></a>
 
+<p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+
+Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
+
+Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Cetero alienum mei id, veri clita numquam ex eam. Ad putent volutpat euripidis sea, ex eam illum quaeque vituperata. Nec veritus perpetua an, verterem gloriatur id vix, dico alia apeirian et est.
+
+Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
+
+Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
 
 
 
@@ -355,17 +347,26 @@
 			
 			
 			<div class="container_12">
-				<div class="oddrow">
+				<div class="oddrow evenrow2">
 				<a name="contactinfo" class="anchorlink"></a>
 					
-		
+	<p> Lorem ipsum dolor sit amet, no vide tibique quaestio mel, solum dicat deterruisset mel ut. Eu sumo vidisse vim, nec corpora intellegat ea. His et agam pericula intellegam, civibus epicuri duo no, ferri sensibus vituperata cu his. In quo mediocrem suavitate. Ne per animal aliquam. Duo cu tantas repudiandae, cu mei alterum volutpat.
+
+Eius falli vituperatoribus eam at. Invenire atomorum pri te. Ea decore impetus admodum ius. Mea id wisi tota euismod, malorum feugiat in sit. Sea aliquam oporteat patrioque eu, nam ne brute maiorum pertinax. Eam quando feugait pericula in, eos cu putent omittantur.
+
+Pro ut aperiam saperet, id quem animal per. Saepe nostro consectetuer cu qui. Cetero alienum mei id, veri clita numquam ex eam. Ad putent volutpat euripidis sea, ex eam illum quaeque vituperata. Nec veritus perpetua an, verterem gloriatur id vix, dico alia apeirian et est.
+
+Mea eu graece atomorum reprimique, labores evertitur neglegentur pro ne, ad eos viris antiopam sapientem. Ea mea exerci graece comprehensam, mei ea discere antiopam prodesset, accumsan hendrerit vis te. In congue lobortis voluptaria his, ad duo vitae lobortis consetetur. Id mea exerci invenire vulputate, ei pri tantas aeterno.
+
+Ad sit agam iusto, solum paulo vocent vel id. Eu sea nostrud indoctum, in dissentiunt neglegentur sed, suas assum tincidunt vim ne. Id ius fugit omittam vivendum, nec cu enim tollit imperdiet. Ius ut invenire mandamus, ne quo congue torquatos neglegentur. Odio maluisset sed ad. Inermis vulputate vix in, mel commune molestiae constituto at.</p>
+
 							
 						
 					</div>
 				</div>
 		
-		
-			<div class="evenrow footer" style="background:#49376D;">
+                                        </div>
+			<div class="evenrow footer" style="background:#000000;">
             <div class="container_12">
 		<div id="Footer"><a href="#backtotop">Back to Top</a></div>
             </div>
