@@ -9,9 +9,13 @@
       background-color: #f2f2f2;
       padding: 25px;
     }
+    .lefty {
+        text-align: left;
+        color: #000000;
+    }
     
   .carousel-inner img {
-      width: 75%; /* Set width to 100% */
+      width: 100%; /* Set width to 100% */
       margin: auto;
       min-height:200px;
   }

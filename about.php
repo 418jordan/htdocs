@@ -26,16 +26,16 @@
             <img src="../myportfolio/images/family.jpg" class="img-responsive margin" style="width:100%" alt="Image">
                         <br>
 
-            <p>I love my family more then I can express!  They are my world.  I have been married for 5 years.  My children are growing up very fast.  Their ages are 3.5, 18 months and 2 month.  I try to spend as much quality time together.  We like to be silly and go on adventures.</p>
+            <p>I love my family more then I can express!  They are my world.  I have been married for 5 years.  My children are growing up very fast.  Their ages are 3.5 years, 18 months and 2 months.  We try to spend as much quality time together as possible.  We like to be silly and go on adventures.</p>
         </div>
         <div class="col-sm-4"> 
             <img src="../myportfolio/images/arch.JPG" class="img-responsive margin" style="width:100%" alt="Image">
                        <br>
 
-            <p>I enjoy the outdoors.  I like to do almost anything outdoors you name it.  As a family we like to camp, go on walks and hikes, go swimming, play all sorts of sports and garden.  This picture was taken at Arch's National Park.</p>
+            <p>I enjoy the outdoors.  I like to do almost anything outdoors.  As a family we like to camp, go on walks and hikes, swim, play all sorts of sports and garden.  This picture was taken at Arch's National Park.</p>
         </div>
         <div class="col-sm-4"> 
-            <img src="../myportfolio/images/Hawaii.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+            <img src="../myportfolio/images/Hawaii.jpg" class="img-responsive margin" style="height: 250px;" alt="Image">
             <br>
             <p>We love to travel!  Utah is an amazing place and we like to take full advantage of that.  We like to get up into the mountains often as well as Utah's national and state parks.  We have visited many of the great states of America.  We have been to Mexico and Hawaii and plan to continue broadening our horizons.  This photo was taken on our trip to Maui.</p>
         </div>

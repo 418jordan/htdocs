@@ -20,19 +20,20 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
+                <a href="/projects.php">
                 <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="height: auto;" >
                 <div class="carousel-caption">
-                    <h2>BUSY BEE PHOTOGRAPHY</h2>
+                  <a/>
                     <br>
                 </div>      
             </div>
 
-            <div class="item">
-                <img class="img-responsive center-block" src="myportfolio/images/flower1.JPG" alt="Image" >
+             <div class="item active">
+                <a href="/projects.php">
+                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="height: auto;" >
                 <div class="carousel-caption">
-                    <h2>Test caption</h2>
+                  <a/>
                     <br>
-
                 </div>      
             </div>
         </div>

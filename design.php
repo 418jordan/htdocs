@@ -16,7 +16,7 @@
         <div class="col-sm-4">
             <img src="myportfolio/images/businesscardandstationary.jpg" class="img-responsive" style="width:100%" alt="Image">
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Business card / Stationery</button>
-           <div id="demo1" class="collapse">
+           <div id="demo" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
