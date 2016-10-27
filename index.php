@@ -21,16 +21,16 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <a href="/projects.php">
-                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="height: auto;" >
+                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="width: 100%" >
                 <div class="carousel-caption">
                   <a/>
                     <br>
                 </div>      
             </div>
 
-             <div class="item active">
+             <div class="item">
                 <a href="/projects.php">
-                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="height: auto;" >
+                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="width: 100%;" >
                 <div class="carousel-caption">
                   <a/>
                     <br>
