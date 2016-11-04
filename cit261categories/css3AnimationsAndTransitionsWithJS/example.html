@@ -1,16 +1,123 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+    <style>
+        #container {
+            width: 600px;
+            height: 600px;
+            position: relative;
+            background: grey;
+            align-content: center;
+        }
+        #animate {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background-color: red;
+            float: right;
+            
+        }
+        #animate2 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: black;
+            float: left;
+        }
+        #animate3 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: white;
+            float: left;
+            bottom: 0;
+        }
+        #animate4 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: yellow;
+            float: right;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
     <body>
-        <div>TODO write content</div>
+
+
+
+        <div id ="container">
+            <div id ="animate"></div>
+            <div id ="animate2"></div>
+            <div id ="animate3"></div>
+            <div id ="animate4"></div>
+        </div>
+        <p>
+            <button onclick="test()">Click Me</button>
+        </p> 
+        <script>
+            function myMove() {
+                var elem = document.getElementById("animate");
+                var pos = 0;
+                var id = setInterval(frame, 3);
+                function frame() {
+                    if (pos == 300) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.top = pos + 'px';
+                        elem.style.right = pos + 'px';
+                    }
+                }
+            }
+            function myMove2() {
+                var elem = document.getElementById("animate2");
+                var pos = 0;
+                var id = setInterval(frame, 3);
+                function frame() {
+                    if (pos == 300) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.top = pos + 'px';
+                        elem.style.left = pos + 'px';
+                    }
+                }
+            }
+            function myMove3() {
+                var elem = document.getElementById("animate3");
+                var pos = 0;
+                var id = setInterval(frame, 3);
+                function frame() {
+                    if (pos == 300) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.bottom = pos + 'px';
+                        elem.style.left = pos + 'px';
+                    }
+                }
+            }
+            function myMove4() {
+                var elem = document.getElementById("animate4");
+                var pos = 0;
+                var id = setInterval(frame, 3);
+                function frame() {
+                    if (pos == 300) {
+                        clearInterval(id);
+                    } else {
+                        pos++;
+                        elem.style.bottom = pos + 'px';
+                        elem.style.right = pos + 'px';
+                    }
+                }
+            }
+            function test() {
+                myMove();
+                myMove2();
+                myMove3();
+                myMove4();
+            }
+        </script>
+
     </body>
 </html>
