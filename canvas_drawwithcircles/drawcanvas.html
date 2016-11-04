@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <style>
+            #draw1 {
+                cursor: crosshair;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="content">
+            <canvas id="draw1" height="700" width="1500" style="border: 10px solid black; background-color: black;"></canvas>
+        </div>
+        <script>
+            var mainCanvas = document.getElementById('draw1');
+            mainContext = mainCanvas.getContext('2d');
+
+            var CircleBrush = {
+                iPrevX: 0,
+                iPrevY: 0,
+                // initialization function
+                init: function () {
+                    mainContext.globalCompositeOperation = 'source-over';
+                    mainContext.lineWidth = 1;
+                    mainContext.strokeStyle = 'white';
+                    mainContext.lineWidth = 1;
+                    mainContext.lineJoin = 'round';
+
+                },
+                startCurve: function (x, y) {
+                    this.iPrevX = x;
+                    this.iPrevY = y;
+                    mainContext.fillStyle = 'white';
+                },
+                draw: function (x, y) {
+                    var iXAbs = Math.abs(x - this.iPrevX);
+                    var iYAbs = Math.abs(y - this.iPrevY);
+                    var rad = 20;
+
+                    if (iXAbs > .125 || iYAbs > .125) {
+                        mainContext.beginPath();
+                        mainContext.arc(this.iPrevX, this.iPrevY, rad, Math.PI * 2, false);
+                        mainContext.fill();
+                        mainContext.stroke();
+                        this.iPrevX = x;
+                        this.iPrevY = y;
+
+                    }
+                }
+            };
+            var circleCounter = [0];
+            mainContext.font = '12pt Arial';
+            mainContext.fillStyle = 'white';
+            mainContext.textBaseline = 'top';
+            CircleBrush.init();
+            $('#draw1').mousedown(function (e) { // mouse down handler
+                cMoeDo = true;
+                var canvasOffset = $('#draw1').offset();
+                var canvasX = Math.floor(e.pageX - canvasOffset.left);
+                var canvasY = Math.floor(e.pageY - canvasOffset.top);
+                CircleBrush.startCurve(canvasX, canvasY);
+            });
+
+            $('#draw1').mouseup(function (e) { // mouse up handler
+                cMoeDo = false;
+            });
+
+            $('#draw1').mousemove(function (e) { // mouse move handler
+                if (cMoeDo) {
+                    var canvasOffset = $('#draw1').offset();
+                    var canvasX = Math.floor(e.pageX - canvasOffset.left);
+                    var canvasY = Math.floor(e.pageY - canvasOffset.top);
+                    CircleBrush.draw(canvasX, canvasY);
+                }
+
+            });
+        </script>
+    </body>
+</html>

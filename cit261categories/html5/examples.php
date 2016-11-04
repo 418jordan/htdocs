@@ -47,7 +47,7 @@
 
                         // Create gradient
                         var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
-                        grd.addColorStop(0, "red");
+                        grd.addColorStop(0, "black");
                         grd.addColorStop(1, "white");
 
                         // Fill with gradient
@@ -55,7 +55,7 @@
                         ctx.fillRect(10, 10, 150, 80);
                     </script> </li>
                 
-                <li><a href="bluecircles.html">Circles canvas example</a></li>
+                <li><a href="circles.html">Circles canvas example</a></li>
             </ul>
             
 
