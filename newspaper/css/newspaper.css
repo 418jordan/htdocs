@@ -1,0 +1,144 @@
+html * {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+#wrapper {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  font-weight: 600;
+}
+
+#main-nav ul {
+  margin: 1em 0;
+  padding: 0;
+}
+
+#main-header * {
+  margin: 0;
+}
+
+main-aside{
+    
+}
+#main-aside * {
+  margin: 0;
+  padding: 0;
+}
+
+#main-aside ul,
+#main-aside p {
+  margin-bottom: 1em;
+}
+
+
+/* Form Styles */
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+fieldset p,
+fieldset ul {
+  margin: .1em 0;
+}
+
+#adtypes label,
+#adtypes input,
+#adimage label,
+#adimage input {
+  display: inline;
+}
+
+#adText {
+  width: 75%;
+  min-width: 320px;
+  min-height: 320px;
+}
+
+/*Helper Styles*/
+.notify{
+    font-weight: 600;
+    color: hsl(353, 47%, 37%);
+}
+
+#confirm th{
+    text-align: right;
+    width: 6.5em;
+}
+#confirm td{
+    padding-left: 1em;
+}
+
+
+/* Responsive Layouts */
+
+/* Medium Screens */
+@media screen and (min-width: 30em) {
+  #wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 75em;  /* 1200px */
+    margin: 0 auto;
+  }
+  .flex-row{
+    display: flex;
+    flex-direction: row;
+}
+  #flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #adform {
+    flex: 3;
+    order: 2;
+  }
+  #main-aside {
+    flex: 0 0 15em;
+    order: 3;
+    margin-left: 1em;
+    padding-top: 6em;
+  }
+  .flex-row main{
+    flex: 1;
+  }
+  main h1{
+      margin-top: 0;
+  }
+}
+
+/*Large Screens*/
+@media screen and (min-width: 50em) {
+  #wrapper {
+    font-size: 1.75vw;
+  }
+  input {
+    font-size: 1.25vw;
+  }
+  .button {
+    display: inline-block;
+    font-size: 2vw;
+    padding: .5em 1em;
+    background-color: #fff;
+    border-radius: .5em;
+  }
+}

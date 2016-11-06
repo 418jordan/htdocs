@@ -27,7 +27,7 @@ My site home page
                 <div class="black">
                     <h1>Home</h1>
                     <p>Site Purpose</p>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ekkKhKnVebk" frameborder="0" allowfullscreen></iframe>
                 </div>
             </main>
             
@@ -35,7 +35,7 @@ My site home page
                 <div class="black">
                     <ul>
                         <li><a href="/movie_manager/exercises.php">Exercises</a></li>
-                        <li><a href="/movie_manager/presentation.php">Teaching Presentation</a></li>
+                        <li>Teaching Presentation</li>
 
                     </ul>
                 </div>
