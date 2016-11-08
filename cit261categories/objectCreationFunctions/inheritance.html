@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="fun"></p>
+
+<script>
+function dog (first, last, age, furcolor, furcolor2) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.furColor = furcolor;
+    this.furColor2 = furcolor2;
+    this.breed = "Pomchi";
+    this.breed2 = "PomShi";
+}
+
+var mydog = new dog("Coco", "Bishop", .5, "Brown", "tan");
+var theirdog = new dog("Koda", "Serrine", 2, "Brown", "tan");
+
+document.getElementById("fun").innerHTML =
+"My Dog is a " + mydog.furColor + " " +  mydog.breed + " and their Dog is a " + mydog.furColor2 + " " +  theirdog.breed2 + "."; 
+</script>
+
+</body>
+</html>

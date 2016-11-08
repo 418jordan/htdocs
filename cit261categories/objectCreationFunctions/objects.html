@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>JavaScript Objects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>General People Info</h1>
+        <h2 id="person1a">Name</h2>
+            <ul>
+                <li id="person1b">Hair Color</li>
+                <li id="person1c">Eye Color</li>
+                <li id="person1d">Phone Number</li>
+                <li id="person1e">Age</li>
+            </ul>
+        <h2 id="person2a">Name</h2>
+            <ul>
+                <li id="person2b">Hair Color</li>
+                <li id="person2c">Eye Color</li>
+                <li id="person2d">Phone Number</li>
+                <li id="person2e">Age</li>
+            </ul>
+        <h2 id="person3a">Name</h2>
+            <ul>
+                <li id="person3b">Hair Color</li>
+                <li id="person3c">Eye Color</li>
+                <li id="person3d">Phone Number</li>
+                <li id="person3e">Age</li>
+            </ul>
+        <script>
+            
+            var person1 = {
+                name: "Jon",
+                hairColor: "Blong",
+                eyesColor: "Blue",
+                phoneNumber: "225-996-7412",
+                age: "27",
+            };
+            
+            var person2 = {
+                name2: "Becky",
+                hairColor2: "Brown",
+                eyesColor2: "Brown",
+                phoneNumber2: "777-895-5625",
+                age2: "40",
+            };
+            
+            var person3 = {
+                name3: "Francis",
+                hairColor3: "Red",
+                eyesColor3: "Green",
+                phoneNumber3: "201-545-7319",
+                age3: "18",
+            };
+            
+            document.getElementById("person1a").innerHTML = person1.name;
+            document.getElementById("person1b").innerHTML = "Hair Color: " + person1.hairColor;
+            document.getElementById("person1c").innerHTML = "Eye Color: " + person1.eyesColor;
+            document.getElementById("person1d").innerHTML = "Phone Number: " + person1.phoneNumber;
+            document.getElementById("person1e").innerHTML = "Age: " + person1.age;
+            
+            document.getElementById("person2a").innerHTML = person2.name2;
+            document.getElementById("person2b").innerHTML = "Hair Color: " + person2.hairColor2;
+            document.getElementById("person2c").innerHTML = "Eye Color: " + person2.eyesColor2;
+            document.getElementById("person2d").innerHTML = "Phone Number: " + person2.phoneNumber2;
+            document.getElementById("person2e").innerHTML = "Age: " + person2.age2;
+            
+            document.getElementById("person3a").innerHTML = person3.name3;
+            document.getElementById("person3b").innerHTML = "Hair Color: " + person3.hairColor3;
+            document.getElementById("person3c").innerHTML = "Eye Color: " + person3.eyesColor3;
+            document.getElementById("person3d").innerHTML = "Phone Number: " + person3.phoneNumber3;
+            document.getElementById("person3e").innerHTML = "Age: " + person3.age3;
+        </script>
+    </body>
+</html>

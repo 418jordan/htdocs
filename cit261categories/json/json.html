@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p><b>Fun stuff:</b></p>    
+        <p id="result">
+        <p id="number">
+        <p id="breed">    
+        <p id="home">
+        <p id="rock">
+            
+        <script>
+            var dog = ["Pomchi", " Pomshi", " German Shepherd", " Charpei", " Labrador", " chihuahua"];
+                     
+            var people = '{"people":[' + '{ "firstName":"Rob" , "lastName":"Mayfield" },' +
+                            '{ "firstName":"Tyler" , "lastName":"McArther" },' +
+                            '{ "firstName":"James" , "lastName":"Higbee" },' +
+                            '{ "firstName":"Jeff" , "lastName":"Gomez" },' +
+                            '{ "firstName":"Blake" , "lastName":"Griffiths" },' +
+                            '{ "firstName":"Brendon" , "lastName":"Horn" }]}'; 
+
+            // Check browser support
+            if (typeof(Storage) !== "undefined") {
+                // Store array as a string with JSON
+                localStorage.setItem("myFriends", JSON.stringify(people));
+                // Retrieve
+                document.getElementById("result").innerHTML = localStorage.getItem("myFriends");
+            } else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+            }
+            
+            // Turn string back into array
+            var retrieved = localStorage.getItem("myFriends");
+            var dog2 = JSON.parse(retrieved);
+
+            // Some fun with arrays
+            document.getElementById("number").innerHTML = "There are " + dog[1].length + " dogs in this Array.";
+            document.getElementById("breed").innerHTML = "My favorite breed is " + dog[3];
+        
+            // Some fun with JSON arrays
+            obj = JSON.parse(people);
+            document.getElementById("home").innerHTML = "My friend " + obj.people[1].firstName + " " + obj.people[1].lastName + " is a home builder.";
+            document.getElementById("rock").innerHTML = "My friends " + obj.people[0].firstName + " and " + obj.people[5].firstName + " like to rock climb.";
+        </script>
+
+    </body>
+</html>
