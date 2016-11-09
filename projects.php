@@ -3,7 +3,7 @@
     <h3 class="margin">My projects</h3><br>
     <div class="row">
         <div class="container-fluid bg-2 text-center">
-            <p>The world is a visually beautiful place.  It inspires me to be a better person and to just slow down and enjoy life.  I try to incorporate these feelings into my web design.  I enjoy websites that are full, vibrant and that pull you in.  Many of the projects shown below use photography that I have captured myself.  I am continually learn and growing in the design and development spaces.</p>
+            <p>The world is a beautiful place.  It inspires me to be a better person and to just slow down and enjoy life.  I try to incorporate these feelings into my web design.  I enjoy websites that are full, vibrant and that pull you in.  Many of the projects shown below use some of my personal photography.  I am continually learning and growing in the design and development spaces.</p>
         </div>
 
     </div>
@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-sm-4">
             <a href="/busybeephotography/home.php">
-            <img src="myportfolio/images/busybee.JPG" class="img-responsive" style="height: 180px" alt="Image">
+            <img src="myportfolio/images/busybee.JPG" class="img-responsive" style="width:100%" alt="Image">
             <a/>
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">Busy Bee Photography</button>
             <div id="demo6" class="collapse">
@@ -27,7 +27,7 @@
         </div>
         <div class="col-sm-4">
             <a href="/sealsavers/index.html">
-            <img src="myportfolio/images/sealsavers.jpg" class="img-responsive" style="height: 180px" alt="Image">
+            <img src="myportfolio/images/sealsavers.jpg" class="img-responsive" style="width:100%" alt="Image">
             <a/>
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Seal Savers</button>
             <div id="demo7" class="collapse">
@@ -41,7 +41,7 @@
         </div>
         <div class="col-sm-4">
             <a href="http://www.obidevo.com/">
-            <img src="myportfolio/images/obidevo.jpg" class="img-responsive" style="height: 180px" alt="Image">
+            <img src="myportfolio/images/obidevo.jpg" class="img-responsive" style="width:100%" alt="Image">
             <a/>
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Obidevo</button>
             <div id="demo8" class="collapse">

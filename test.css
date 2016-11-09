@@ -78,4 +78,11 @@ ul:hover {
     .carousel-caption {
         display: none; 
     }
+
+@media (max-width: 750px) {
+    .smallbuttons {
+        width: 25%;
+        position: flex;
+    }
+}
 }
