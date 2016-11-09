@@ -39,14 +39,18 @@
                 </ul>
             </div>
         </div>
-        <div class="col-sm-4"> 
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Future Project</button>
+        <div class="col-sm-4">
+            <a href="http://www.obidevo.com/">
+            <img src="myportfolio/images/obidevo.jpg" class="img-responsive" style="height: 180px" alt="Image">
+            <a/>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Obidevo</button>
             <div id="demo8" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul>
+                    <li class="lefty"><strong>Title: Obidevo</strong></li>
+                    <li class="lefty"><strong>Type:</strong> Responsive Website</li>
+                    <li class="lefty"><strong>Tech used:</strong> HTML, CSS, Bootstrap and PHP</li>
+                    <li class="lefty"><strong>Process:</strong> Obidevo.com is my portfolio site.  It is a responsive design built with Bootstrap.  I kept it very plain to accentuate the visuals of my projects.</li>
+                </ul>
             </div>
         </div>
     </div>

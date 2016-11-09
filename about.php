@@ -15,7 +15,7 @@
 </style>
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-    <p>I love to problem solve.  I usually can visualize the problem and the solution.  I like to create and fix things as well.  I like to do this as much as I can at work and at School that my wife has nicknamed me the "solutions engineer".  Its kind of our little joke but I truly enjoy finding solutions and making things work.  I have taken this mentality and I incorporate it into my code and design.  If there is a will there is a way and I enjoy greatly finding that way.  I have spent years working in different customer service, financial and retail backgrounds.  My unique work background and skill set allow me to have some different perspectives as a developer.  Apart from work I have many interests</p>
+    <p>I love to problem solve.  I usually can visualize the solution to a problem.  I like to create and fix things as well.  I like to do this as much as I can at work and home that my wife has nicknamed me the "solutions engineer".  Its kind of our little joke but I truly enjoy finding solutions and making things work.  I have taken this mentality and I incorporate it into my code and design.  If there is a will there is a way and I enjoy greatly finding that way.  I have spent years working in different customer service, financial and retail backgrounds.  My unique work background and skill set allow me to have some different perspectives as a developer.  Apart from programming I have many interests.</p>
 </div>
 
 <!-- Third Container (Grid) -->
