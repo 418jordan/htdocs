@@ -30,7 +30,7 @@
 
              <div class="item">
                 <a href="/projects.php">
-                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="width: 100%;" >
+                <img class="img-responsive center-block" src="myportfolio/images/sealsavers.jpg" alt="Image" style="width: 100%;" >
                 <div class="carousel-caption">
                   <a/>
                     <br>

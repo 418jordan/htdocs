@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <style>
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
@@ -21,7 +23,9 @@ p {line-height: 2}
 
 .alignleft {margin-left: -550px;}
 
-
+ #draw1 {
+                cursor: crosshair;
+            }
 
 </style>
 <body>
@@ -29,6 +33,7 @@ p {line-height: 2}
 <!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white w3-left" style="top: 33%; left: 2%;">
+      <img src="seal-99302_1280.png" style="width: 80px; height: 80px; margin-bottom: 43px;">
       <h1 class="w3-jumbo"><strong>Monterrey Seal Saver</strong></h1>
       <h1 class="w3-jumbo"> <strong>Project</strong></h1>
     <h2><b>Find out more below</b></h2>
@@ -70,9 +75,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante arcu, e
 </div>
 
 <div class="w3-display-container bgimg2">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">Who wants to Learn more about seals?</h1><br>
-    <h2>Scroll on my friend!</h2>
+  <div class="w3-display-middle w3-text-black w3-center">
+    
   </div>
 </div>
 
@@ -115,15 +119,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante arcu, e
                         <br>
                         
       <div class="w3-half w3-center " style="border-radius: 12px; background-color: #519099; color: white; border: black 3px solid;">
-        <h2>When</h2>
-        <p>Wedding Ceremony - 2:00pm</p>
-        <p>Reception & Dinner - 5:00pm</p>
+        <h2>Last Event</h2>
+        <p>1454 W 800 s</p>
+        <p>Johnsonville, CA</p>
+        <p>5:00 pm</p>
       </div>
                         
       <div class="w3-half w3-center " style="border-radius: 12px; background-color: #519099; color: white; border: black 3px solid;">
-        <h2>Where</h2>
-        <p>Some place, an address</p>
-        <p>Some where, some address</p>
+        <h2>Next Event</h2>
+        <p>Fisherman's Wharf</p>
+        <p>Monterrey, CA</p>
+        <p>3:00 pm</p>
       </div>
     </div>
   </div>
@@ -131,31 +137,42 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante arcu, e
 
 <div class="w3-container w3-padding-64 w3-grey w3-center w3-wide bgimg3  " id="donate" style="height: 370px;">
     <div class="alignleft">
-    <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By January, 2017</p>
+    <h1>YOU CAN MAKE A DIFFERENCE!</h1>
+  <p class="w3-large">Click below to fill out a donation form.</p>
   <p class="w3-xlarge">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-round w3-red w3-opacity w3-hover-opacity-off " style="padding:8px 60px">RSVP</button>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn w3-round w3-red w3-opacity w3-hover-opacity-off " style="padding:8px 60px">DONATE</button>
   </p>
     </div>
 </div>
 
 <div id="id01" class="w3-modal">
   <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
-    <div class="w3-container w3-pale-red">
+    <div class="w3-container w3-Grey">
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn" title="Close Modal">x</span>
-      <h2>Are You Coming?</h2>
-      <h4>Date: 17.07.2017</h4>
+      <h2>Seal Saver Project Donation Form</h2>
+      <h4>Please fill out all fields</h4>
     </div>
     <form class="w3-container">
-      <p>We really hope you can make it, but we understand if you can't come.</p>
-      <label><b>Enter Name or Names</b></label>
+      
       <input class="w3-input w3-border" type="text" placeholder="Name" name="name">
-      <p><i>Sincerely, John & Jane</i></p>
+      <br>
+      <input class="w3-input w3-border" type="text" placeholder="Card Number" name="Card Number">
+      <br>
+      <input class="w3-input w3-border" type="text" placeholder="Security Code" name="Security Code">
+      <br>
+      <input class="w3-input w3-border" type="text" placeholder="Exp Date" name="Exp Date">
+      <br>
+      <input class="w3-input w3-border" type="text" placeholder="Amount" name="Amount">
+      <br>
+      <p>Sign Here:</p>
+<div id="content">
+            <canvas id="draw1" height="165px" width="565px" style="border:1px solid black; background-color: white;"></canvas>
+        </div>
     </form>
 
     <div class="w3-container w3-padding-16 w3-light-grey">
-      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-btn w3-green w3-left">Going</button>
-      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-btn w3-red w3-right">Can't come</button>
+      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-btn w3-green w3-left">Donate</button>
+      <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-btn w3-red w3-right">Cancel</button>
     </div>
 
   </div>
@@ -163,8 +180,80 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante arcu, e
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-</footer>
-<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+    <ul style='list-style: none; display: flex;'>
+        <li><img src='Instagram.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='Twitter.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='facebook.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='mail.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='youtube.png' style='width: 70px; height: 70px;'></li>
 
+    </ul>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:50px"> </div>
+
+        <script>
+            var mainCanvas = document.getElementById('draw1');
+            mainContext = mainCanvas.getContext('2d');
+
+            var CircleBrush = {
+                iPrevX: 0,
+                iPrevY: 0,
+                // initialization function
+                init: function () {
+                    mainContext.globalCompositeOperation = 'source-over';
+                    mainContext.lineWidth = 1;
+                    mainContext.strokeStyle = 'black';
+                    mainContext.lineWidth = 1;
+                    mainContext.lineJoin = 'round';
+
+                },
+                startCurve: function (x, y) {
+                    this.iPrevX = x;
+                    this.iPrevY = y;
+                    mainContext.fillStyle = 'black';
+                },
+                draw: function (x, y) {
+                    var iXAbs = Math.abs(x - this.iPrevX);
+                    var iYAbs = Math.abs(y - this.iPrevY);
+                    var rad = 5;
+
+                    if (iXAbs > .125 || iYAbs > .125) {
+                        mainContext.beginPath();
+                        mainContext.arc(this.iPrevX, this.iPrevY, rad, Math.PI * 2, false);
+                        mainContext.fill();
+                        mainContext.stroke();
+                        this.iPrevX = x;
+                        this.iPrevY = y;
+
+                    }
+                }
+            };
+            var circleCounter = [0];
+            mainContext.font = '12pt Arial';
+            mainContext.fillStyle = 'white';
+            mainContext.textBaseline = 'top';
+            CircleBrush.init();
+            $('#draw1').mousedown(function (e) { // mouse down handler
+                cMoeDo = true;
+                var canvasOffset = $('#draw1').offset();
+                var canvasX = Math.floor(e.pageX - canvasOffset.left);
+                var canvasY = Math.floor(e.pageY - canvasOffset.top);
+                CircleBrush.startCurve(canvasX, canvasY);
+            });
+
+            $('#draw1').mouseup(function (e) { // mouse up handler
+                cMoeDo = false;
+            });
+
+            $('#draw1').mousemove(function (e) { // mouse move handler
+                if (cMoeDo) {
+                    var canvasOffset = $('#draw1').offset();
+                    var canvasX = Math.floor(e.pageX - canvasOffset.left);
+                    var canvasY = Math.floor(e.pageY - canvasOffset.top);
+                    CircleBrush.draw(canvasX, canvasY);
+                }
+
+            });
+        </script>
 </body>
 </html>

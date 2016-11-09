@@ -20,18 +20,23 @@
                 <ul>
                     <li class="lefty"><strong>Title: Busy Bee Photography</strong></li>
                     <li class="lefty"><strong>Type:</strong> Single page</li>
-                    <li class="lefty"><strong>Tech used:</strong> Photoshop CC, HTML, CSS, JavaScript</li>
-                    <li class="lefty"><strong>Process:</strong> I first came up with the idea of Busy Bee Photography by searching through some of my favorite personal photos.  The original picture of the Bee is a picture I had taken.  I then edited the Photo to make it more playful and eye catching.  I feel that this site would make a good portfolio site for anything really.  Be sure to check out the JavaScript sliders.</li>
+                    <li class="lefty"><strong>Tech used:</strong> Photoshop CC, HTML, CSS, PHP and JavaScript</li>
+                    <li class="lefty"><strong>Process:</strong> I first came up with the idea of Busy Bee Photography as a mock site by searching through some of my favorite personal photos.  The original picture of the Bee is a picture I had taken.  I then edited the Photo to make it more playful and eye catching.  I feel that this site would make a good portfolio site for anything really.  Be sure to check out the JavaScript sliders.</li>
                 </ul>
             </div>
         </div>
-        <div class="col-sm-4"> 
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Future Project</button>
+        <div class="col-sm-4">
+            <a href="/sealsavers/index.html">
+            <img src="myportfolio/images/sealsavers.jpg" class="img-responsive" style="height: 180px" alt="Image">
+            <a/>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Seal Savers</button>
             <div id="demo7" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <ul>
+                    <li class="lefty"><strong>Title: Seal Savers</strong></li>
+                    <li class="lefty"><strong>Type:</strong> Single page</li>
+                    <li class="lefty"><strong>Tech used:</strong> Photoshop CC, Illustrator CC, HTML, CSS, w3.CSS and JavaScript</li>
+                    <li class="lefty"><strong>Process:</strong> Seal Savers is an idea I had due to two trips my family has taken to Monterrey California.  We really liked it and got some good pictures of the seals.  This is a single page site that shows a good flow and layout. I had some fun getting the signature pad to appear on the donation form.</li>
+                </ul>
             </div>
         </div>
         <div class="col-sm-4"> 

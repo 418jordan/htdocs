@@ -32,8 +32,8 @@ My site exercise page
                         <li>Exercise 4-1 Assignments Completed </li>
                         <li>Exercise 5-1 Assignments Completed</li>
                        
-                        <li>Exercise 7-2 </li>
-                        <li>Exercise 8-2 </li>
+                        <li>Exercise 7-2 Assignments Completed </li>
+                        <li>Exercise 8-2 Assignments Completed</li>
                         <li>Exercise 11-1</li>
                         <li>Exercise 13-1 </li>
                         <li>Exercise 12-2 </li>
@@ -41,10 +41,10 @@ My site exercise page
                     </ul>
                     <h1>Enhancements </h1>
                     <ul>
-                        <li>Enhancement 2 </li>
+                        <li>Enhancement 2  Completed</li>
                         <li><a href="../movie_manager/enhancement4/index.php">Enhancement 4-1</a> </li>
-                        <li>Enhancement 5-1</li>
-                        <li>Enhancement 7-2</li>
+                        <li>Enhancement 5-1 Completed</li>
+                        <li>Enhancement 7-2 Completed</li>
                         <li>Enhancement 11-1</li>
                         <li>Enhancement 13-1</li>
                         <li>Enhancement 12-2</li>
