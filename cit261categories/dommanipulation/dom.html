@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM</title>
+
+
+
+    </head>
+    <body>
+        <ol>
+           <p id="pid" onclick="window.location.href = 'www.google.com';">GOOGLE.COM</p>
+
+        <form>
+            
+            <li><p><input value="Change Font Size" type="button" onclick="changeFontSizeLarge();" /></p></li>
+            <li><p><input value="Change Font Size even more" type="button" onclick="changeFontSizeLarge2();" /></p></li>
+            <li><p><input value="Change Text Color to Red" type="button" onclick="changeText();" /></p></li>
+           <li> <p><input value="Change Text Color to Black" type="button" onclick="changeTextRed();" /></p></li>
+           <li> <p><input value="Change Opacity" type="button" onclick="changeOpacity();" /></p></li>
+
+           <li> <p><input value="Change Font Style" type="button" onclick="changeFontStyle();" /></p></li>
+           <li> <p><input value="Revert Font Style" type="button" onclick="changeRegularFont();" /></p></li>
+           <li> <p><input value="Move me" type="button" onclick="moveText();" /></p></li>
+            
+            <ul id="myList">
+                <li>Coffee</li>
+                <li>Tea</li>
+            </ul>
+           <br>
+            <li><button onclick="myFunction(); return false;">Add</button></li>
+            
+           <li> <button onclick="myFunction2; return false;()">Remove / Reset</button></li>
+
+        </form>
+
+    </body>
+</html>
+        <script>
+            function changeText() {
+                var p = document.getElementById("pid");
+
+                p.style.color = "red";
+                p.style.transition = "3s";
+
+            }
+            function changeTextRed() {
+                var r = document.getElementById("pid");
+
+                r.style.color = "black"
+                r.style.transition = "1s";
+
+            }
+            function changeOpacity() {
+                var f = document.getElementById("pid");
+                f.style.opacity = "0.1"
+                f.style.transition = "3s";
+
+            }
+            function changeFontSizeLarge() {
+                var f = document.getElementById("pid");
+                f.style.fontSize = "3em"
+            }
+            function changeFontSizeLarge2() {
+                var f = document.getElementById("pid");
+                f.style.fontSize = "6em"
+            }
+            function changeFontStyle() {
+                var s = document.getElementById("pid");
+                s.style.fontStyle = "bold";
+                s.style.fontStyle = "italic";
+            }
+
+            function changeRegularFont() {
+                var s = document.getElementById("pid");
+                s.style.fontStyle = "normal";
+            }
+
+            function moveText() {
+                var m = document.getElementById("pid");
+                m.style.transform = "translate(600px,300px)";
+            }
+            function myFunction() {
+                var node = document.createElement("LI");
+                var textnode = document.createTextNode("Water");
+                node.appendChild(textnode);
+                document.getElementById("myList").appendChild(node);
+            }
+            function myFunction2() {
+                 var newItem = document.createElement("LI");
+                 var textnode = document.createTextNode("Water");
+                newItem.appendChild(textnode);
+
+                var list = document.getElementById("myList");
+                 list.insertBefore(newItem, list.childNodes[0]);
+}
+
+        </script>

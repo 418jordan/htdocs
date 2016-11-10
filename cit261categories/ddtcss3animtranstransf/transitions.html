@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .rectangle.change {
+            -webkit-transition: 2s;
+            -moz-transition: 2s;
+            -ms-transition: 2s;
+            -o-transition: 2s;
+            transition: 2s;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            -webkit-transform: rotateX(150deg);
+            -moz-transform: rotateX(180deg);
+            -ms-transform: rotateX(180deg);
+            -o-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+            border-radius: 50% 50% 50% 50%;
+            margin-left: 50% !important;
+        
+          }
+.rectangle2.change2 {
+            -webkit-transition: 2s;
+            -moz-transition: 2s;
+            -ms-transition: 2s;
+            -o-transition: 2s;
+            transition: 2s;
+             -webkit-transform: rotateX(150deg);
+            -moz-transform: rotateX(180deg);
+            -ms-transform: rotateX(180deg);
+            -o-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+            border-radius: 10px 10px 10px 10px;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+           
+            margin-right: 50% !important;
+        
+          }
+          .rectangle2 {
+                width: 300px;
+                height: 300px;
+                background: red;
+               border-radius: 50% 50% 50% 50%;
+                margin: 30px;
+                float: right;
+                margin-top: -325px;}
+          
+            .rectangle {
+                width: 300px;
+                height: 300px;
+                background: red;
+                border-radius: 10px 10px 10px 10px;
+                margin: 30px;}
+              
+        </style>
+    </head>
+    <body>
+       <div class="rectangle"></div>
+
+<button class="btn" value="play">Play</button>
+
+<div class="rectangle2"></div>
+
+<button class="btn2" value="play2">Play2</button>
+<script>
+    var rectangle = document.getElementsByClassName('rectangle')[0];
+
+    document.getElementsByClassName('btn')[0].onclick = function() {
+      if(this.innerHTML === 'Play') 
+      { 
+        this.innerHTML = 'Pause';
+        rectangle.classList.add('change');
+      } else {
+        this.innerHTML = 'Play';
+        var computedStyle = window.getComputedStyle(rectangle),
+            marginLeft = computedStyle.getPropertyValue('margin-left');
+        rectangle.style.marginLeft = marginLeft;
+        rectangle.classList.remove('change');    
+      }  
+}
+var rectangle2 = document.getElementsByClassName('rectangle2')[0];
+
+    document.getElementsByClassName('btn2')[0].onclick = function() {
+      if(this.innerHTML === 'Play2') 
+      { 
+        this.innerHTML = 'Pause2';
+        rectangle2.classList.add('change2');
+      } else {
+        this.innerHTML = 'Play2';
+        var computedStyle = window.getComputedStyle(rectangle2),
+            marginRight = computedStyle.getPropertyValue('margin-right');
+        rectangle2.style.marginRight = marginRight;
+        rectangle2.classList.remove('change2');    
+      }  
+}
+</script>
+    </body>
+</html>
