@@ -21,20 +21,28 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
+      </button>
+                      
       </button>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
           <a class="navbar-brand" href="index.php">Home</a>
           <a class="navbar-brand" href="about.php">About</a>
+                <a class="navbar-brand" href="contact.php">Contact</a>
+
           <a class="navbar-brand" href="projects.php">Projects</a>
-          <a class="navbar-brand" href="design.php">Design</a>
-          <a class="navbar-brand" href="contact.php">Contact</a>
-       
+          
+          <a class="navbar-brand" class="dropdown-toggle" data-toggle="dropdown" >Design/Photo<span class="caret"></span></a>
+          <ul class="dropdown-menu" style="margin-left: 33%;">
+                <li><a href="design.php">Graphic Design</a></li>
+                 <li><a href="indexdesignslider.html">Graphic Design Gallery</a></li>
+                 <li><a href="indexphotogallery.html">Photography Gallery</a></li>
+        </ul>
       </ul>
       
     </div>

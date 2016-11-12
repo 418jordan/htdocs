@@ -61,7 +61,7 @@
             </div>
             <div class="col-sm-3"> 
                 <a href="design.php"> <img src="myportfolio/images/designicon.jpg" class="img-responsive " style="width:100%" alt="Image"></a>
-                <p>Design</p>    
+                <p>Graphic Design</p>    
             </div>
             <div class="col-sm-3"> 
                 <a href="contact.php"><img src="myportfolio/images/contacticon.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
