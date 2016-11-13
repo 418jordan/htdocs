@@ -1,0 +1,33 @@
+
+<!-- For edit_product.php -->
+<br>
+		
+			<label>Category ID:</label>
+                        <input type="text" name="category" id="category" value="<?php //echo "{$products['categoryID']}"; ?>">
+
+			<select name="category_id">
+            <?php// foreach ($categories as $category) {
+				/* if($categories == $category) {
+					$optlist .= "<option selected value=echo $category'[categoryID]'>$category</option>";
+				} else {
+					$optlist .= "<option value='$category'>$category</option>";
+				}
+			}
+                        echo $optlist; */
+			?>
+                <option value="<?php // echo $category['categoryID']; ?>">
+                    <?php // echo $category['categoryName']; ?>
+                </option> 
+            <?php // endforeach; ?>
+			</select>
+		
+		
+		
+		 <label>Category:</label>
+            <select name="category_id">
+				<?php foreach ($categories as $category) : ?>
+					<option value="<?php echo $category['categoryID']; ?>">
+						<?php echo $category['categoryName']; ?>
+					</option>
+				<?php endforeach; ?>
+			</select>
