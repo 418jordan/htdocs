@@ -41,7 +41,7 @@
         </div>
         <div class="col-sm-4">
             <a href="http://www.obidevo.com/">
-            <img src="myportfolio/images/obidevo.jpg" class="img-responsive" style="width:100%" alt="Image">
+            <img src="myportfolio/images/Obidevo.JPG" class="img-responsive" style="width:100%" alt="Image">
             <a/>
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Obidevo</button>
             <div id="demo8" class="collapse">
