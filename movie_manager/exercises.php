@@ -36,7 +36,7 @@ My site exercise page
                         <li>Exercise 8-2 Assignments Completed</li>
                         <li>Exercise 11-1</li>
                         <li>Exercise 13-1 </li>
-                        <li>Exercise 12-2 </li>
+                        <li>Exercise 12-2 Assignments completed</li>
                         <li>Exercise 15-1 Assignments Completed <li>
                     </ul>
                     <h1>Enhancements </h1>
