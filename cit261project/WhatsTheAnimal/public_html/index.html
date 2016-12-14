@@ -12,7 +12,7 @@ and open the template in the editor.
         <link type="text/css" rel="stylesheet" href="style.css">
         <script src='main.js'></script>
     </head>
-    <body onload="myFunction()" style="background-color: #63CAD1" onload='getHighScore()'>
+    <body onload="myFunction(); getHighScore()" style="background-color: #63CAD1">
         
                 <div id="movement" style="width: 1500px;">
             <div>   <img src="images/sunsun-01.png" id="move3" style="position: absolute; width: 1525px;"  /> </div>
@@ -29,15 +29,15 @@ and open the template in the editor.
             
             <form style="padding: 20px;">
             <p style="color: white;">Enter First Name:</p>
-            <input id='name1' onblur='storePlayerName()'>
+            <input id='name1' onchange='storePlayerName()'>
             <p style="color: white;">Enter Last Name:</p>
-            <input id='name2' onblur='storePlayerName()'>
+            <input id='name2' onchange='storePlayerName()'>
         </form>
             
             <p id="answer"></p>
             <div style="color: white;"  id="result"></div>
             <div style="color: white;" id="result2"></div>
-            <p><button style="padding: 20px;" onclick="clear()">Clear Results</button></p>
+            <p><button style="padding: 20px;" onclick="window.localStorage.clear()">Clear Results</button></p>
             <p><button style="padding: 20px;"  onclick="nextQuestion()">Next Question</button></p>
         
         <div style="padding: 20px;" id='keepingScore'>
@@ -94,7 +94,7 @@ and open the template in the editor.
                 document.getElementById("answer").innerHTML = 'Correct!';
             }
             function clear() {
-                localStorage.clear();
+                window.localStorage.clear();
             }
             var image_1 = {
                 image: '<img src="images/BaldEagle.jpg" alt="Bald Eagle" style="width:416px;height:292px;">',

@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="103" xOffset="0" scrollWidth="927" startPos="4033" endPos="4033" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\index.php" backupFilePath="" originalFileLastModifTimestamp="1479875048" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="756" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\model\product_db.php" backupFilePath="" originalFileLastModifTimestamp="1479808335" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="756" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\model\category_db.php" backupFilePath="" originalFileLastModifTimestamp="1479630935" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="756" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\view\product_list.php" backupFilePath="" originalFileLastModifTimestamp="1479632532" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="756" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\view\product_add.php" backupFilePath="" originalFileLastModifTimestamp="1479630271" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="927" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\view\product_edit.php" backupFilePath="" originalFileLastModifTimestamp="1479807609" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="927" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="C:\Users\Bryce\OneDrive\Documents\lava84flow.net\dynamicproject\view\category_list.php" backupFilePath="" originalFileLastModifTimestamp="1479632475" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

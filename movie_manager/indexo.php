@@ -27,7 +27,7 @@ My site home page
                 <div class="black">
                     <h1>Home</h1>
                     <p>Site Purpose</p>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mdw9mebx7Lo" frameborder="0" allowfullscreen></iframe>
                 </div>
             </main>
             
@@ -36,6 +36,8 @@ My site home page
                     <ul>
                         <li><a href="/movie_manager/exercises.php">Exercises</a></li>
                         <li><a href="/movie_manager/presentation.php">Teaching Presentation</a></li>
+                        <li><a href="http://www.obidevo.com/movie_managerfinal/index.php">Dynamic Project Final</a></li>
+
 
                     </ul>
                 </div>
