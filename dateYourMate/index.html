@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Date Your Mate</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="jquery.transit.js?v=14845"></script>
+    <head>
+        <title>Date Your Mate</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="jquery.transit.js?v=14845"></script>
 
-  <style>
-  body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-   html, body {
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 { 
+                background-color: #1abc9c; /* Green */
+                color: #ffffff;
+            }
+            .bg-2 { 
+                background-color: #474e5d; /* Dark Blue */
+                color: #ffffff;
+            }
+            .bg-3 { 
+                background-color: #ffffff; /* White */
+                color: #555555;
+            }
+            .bg-4 { 
+                background-color: #2f2f2f; /* Black Gray */
+                color: #fff;
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+            .navbar-nav  li a:hover {
+                color: #1abc9c !important;
+            }
+            html, body {
                 overflow-x: hidden;
             }
             canvas{
@@ -60,190 +60,210 @@
             body > div{
                 background: rgba(255, 255, 255, .3);}
             #grad1 {
-    height: 100px;
-    background: #E5C2F1; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, #E5C2F1, #f8f8f8); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #E5C2F1, f8f8f8); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #E5C2F1, f8f8f8); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #E5C2F1, f8f8f8); /* Standard syntax (must be last) */
-}
-  </style>
-</head>
-<body>
+                height: 100px;
+                background: #E5C2F1; /* For browsers that do not support gradients */    
+                background: -webkit-linear-gradient(left top, #E5C2F1, #f8f8f8); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(bottom right, #E5C2F1, f8f8f8); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(bottom right, #E5C2F1, f8f8f8); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(to bottom right, #E5C2F1, f8f8f8); /* Standard syntax (must be last) */
+            }
+        </style>
+    </head>
+    <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Date Your Mate</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#who"><button >Start Animation</button></a></li>
-        <li><a href="#what">WHAT</a></li>
-        <li><a href="#where">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<div style="height: 655px; margin-top: 100px;">
- <div >
+        <!-- Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>  
+                    </button>
+                    <img src="heartlogo.png" class="img-responsive margin" style="width:6%; margin-left: -4%; position: absolute;" alt="Image">
+
+                    <a class="navbar-brand" href="#">Date Your Mate</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#mission"><button >OUR MISSION</button></a></li>
+                        <li><a href="#find">FIND</a></li>
+                        <li><a href="#profile">PROFILE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div style="height: 655px; margin-top: 100px;">
+            <div >
                 <canvas id="myCanvas" width="1700" height="800" style="background-color: white; margin-top: -10%;">
 
                 </canvas>
             </div>
             <div class="box">
-                      <img src="Drawing_1.png" class="img-responsive margin " style="width:100%; position: absolute; " alt="Image">
+                <img src="Drawing_1.png" class="img-responsive margin " style="width:100%; position: absolute; " alt="Image">
 
-                
-                    
-    </div>
-</div>
-    <a name="who"></a>
 
-<!-- First Container -->
-<div id="grad1" class="container-fluid bg-1 text-center" style="height: 110vh; background-color: white; border-top: 10px solid black; border-bottom: 10px solid black">
 
-      <img src="couples11.png" class="img-responsive margin one" style="width:100%; position: absolute;" alt="Image">
-      <img src="couples21.png" class="img-responsive margin two" style="width:100%; position: absolute; margin-left: 1500px;" alt="Image">
-      <img src="couples31.png" class="img-responsive margin three" style="width:100%; position: absolute; margin-left: -1300px;" alt="Image">
-      <div style="width:500px; margin-left: 18%; margin-top: 13%;">
-          <h2 style="color: #5e5e5e;">Interested in finding someone to love?</h2>
-          <p style="color: #5e5e5e;">We are interested in helping you find that special someone.  We have a patented search algorithm that pairs your profile with other profile matches unlike any other dating website.</p>
-     
-             <p>
-        <a href="#what">
-          <span class="glyphicon glyphicon-chevron-down"></span>
-        </a>
-      </p>
-          
-      </div>
+            </div>
+        </div>
+        <a name="mission"></a>
 
-</div>
+        <!-- First Container -->
+        <div id="grad1" class="container-fluid bg-1 text-center" style="height: 110vh; background-color: white; border-top: 10px solid black; border-bottom: 10px solid black;">
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center" style="height: 110vh;">
-    <a name="what"></a>
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
+            <img src="couples11.png" class="img-responsive margin one" style="width:100%; position: absolute;" alt="Image">
+            <img src="couples21.png" class="img-responsive margin two" style="width:100%; position: absolute; margin-left: 1450px;" alt="Image">
+            <img src="couples31.png" class="img-responsive margin three" style="width:100%; position: absolute; margin-left: -1350px;" alt="Image">
+            <img src="hearts3.png" class="img-responsive margin" style="width:90%; position: absolute; margin-left: 50px; " alt="Image">
+            <div style="width:500px; margin-left: 16%; margin-top: 18.25%;">
+                <h2 style="color: #5e5e5e;">Interested in finding someone to love?</h2>
+                <p style="color: #5e5e5e;">We are interested in helping you find that special someone.  We have a patented search algorithm that pairs your profile with other profile matches unlike any other dating website.</p>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center" style="height: 110vh;">  
-    <a name="where"></a>
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
+                <p>
+                    <a href="#find">
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                </p>
 
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>aaaaaaaaaa</a></p> 
-</footer>
+            </div>
 
-</body>
+        </div>
+
+        <!-- Second Container -->
+        <div class="container-fluid bg-2 text-center" style="height: 110vh; background-color: #5e5e5e;">
+            <a name="find"></a>
+            <h1 class="margin" style="color: #E5C3F1">Search for Singles</h1><br>
+
+            <p style="color: #E5C3F1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <a href="#" style="color: #5e5e5e" class="btn btn-default btn-lg">
+                <span style="color: #5e5e5e" class="glyphicon glyphicon-search" ></span> Search
+            </a>
+            <br>
+            <br>
+
+            <img src="worldmap2.png" class="img-responsive center-block" style="width: 58%;  margin: 0 auto;" alt="Image">
+
+        </div>
+        
+        
+       
+
+        <!-- Third Container (Grid) -->
+        <div class="container-fluid bg-3 text-center" style="height: 110vh; border-top: 10px solid black; border-bottom: 10px solid black;">  
+
+            <a name="profile"></a>
+            <h1 class="margin">Profile Maintenance</h1><br>
+            <div class="row" >
+                <div class="col-sm-4" style="border: black 8px solid; width: 31%; margin: 0 1%; border-radius: 20px;">
+                    <h2>New Profile</h2>
+                    <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4" style="border: black 8px solid; width: 31%; margin: 0 1%; border-radius: 20px;"> 
+                    <h2>Edit Profile</h2>
+                    <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4" style="border: black 8px solid; width: 31%; margin: 0 1%; border-radius: 20px;"> 
+                    <h2>Settings</h2>
+                    <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid bg-4 text-center" style="background-color: black;">
+                <ul style='list-style: none; display: flex;'>
+        <li><img src='Instagram.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='Twitter.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='facebook.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='mail.png' style='width: 70px; height: 70px;'></li>
+        <li><img src='youtube.png' style='width: 70px; height: 70px;'></li>
+
+    </ul>
+        </footer>
+
+    </body>
 </html>
 </script> 
-                    <script>
-                        var mainCanvas = document.getElementById("myCanvas");
-                        var mainContext = mainCanvas.getContext('2d');
+<script>
+    var mainCanvas = document.getElementById("myCanvas");
+    var mainContext = mainCanvas.getContext('2d');
 
-                        var circles = [];
+    var circles = [];
 
-                        function Circle(radius, speed, width, xPos, yPos) {
-                            this.radius = radius;
-                            this.speed = speed;
-                            this.width = width;
-                            this.xPos = xPos;
-                            this.yPos = yPos;
-                            this.opacity = 0.08 + Math.random() * 0.5;
+    function Circle(radius, speed, width, xPos, yPos) {
+        this.radius = radius;
+        this.speed = speed;
+        this.width = width;
+        this.xPos = xPos;
+        this.yPos = yPos;
+        this.opacity = 0.08 + Math.random() * 0.5;
 
-                            this.counter = 0;
+        this.counter = 0;
 
-                            var signHelper = Math.floor(Math.random() * 2);
+        var signHelper = Math.floor(Math.random() * 2);
 
-                            if (signHelper == 1) {
-                                this.sign = -1;
-                            } else {
-                                this.sign = 1;
-                            }
-                        }
+        if (signHelper == 1) {
+            this.sign = -1;
+        } else {
+            this.sign = 1;
+        }
+    }
 
-                        Circle.prototype.update = function () {
+    Circle.prototype.update = function () {
 
-                            this.counter += this.sign * this.speed;
+        this.counter += this.sign * this.speed;
 
-                            mainContext.beginPath();
+        mainContext.beginPath();
 
-                            mainContext.arc(this.xPos + Math.cos(this.counter / 100) * this.radius,
-                                    this.yPos + Math.sin(this.counter / 100) * this.radius,
-                                    this.width,
-                                    0,
-                                    Math.PI * 2,
-                                    false);
+        mainContext.arc(this.xPos + Math.cos(this.counter / 100) * this.radius,
+                this.yPos + Math.sin(this.counter / 100) * this.radius,
+                this.width,
+                0,
+                Math.PI * 2,
+                false);
 
-                            mainContext.closePath();
+        mainContext.closePath();
 
-                            mainContext.fillStyle = 'rgba(200, 125, 225,' + this.opacity + ')';
-                            mainContext.fill();
-                        };
+        mainContext.fillStyle = 'rgba(200, 125, 225,' + this.opacity + ')';
+        mainContext.fill();
+    };
 
-                        function drawCircles() {
-                            for (var i = 0; i < 100; i++) {
-                                var randomX = Math.round(-200 + Math.random() * 1700);
-                                var randomY = Math.round(-200 + Math.random() * 800);
-                                var speed = 0.2 + Math.random() * 2;
-                                var size = 5 + Math.random() * 50;
+    function drawCircles() {
+        for (var i = 0; i < 100; i++) {
+            var randomX = Math.round(-200 + Math.random() * 1700);
+            var randomY = Math.round(-200 + Math.random() * 800);
+            var speed = 0.2 + Math.random() * 2;
+            var size = 5 + Math.random() * 50;
 
-                                var circle = new Circle(100, speed, size, randomX, randomY);
-                                circles.push(circle);
-                            }
-                            draw();
-                        }
-                        drawCircles();
+            var circle = new Circle(100, speed, size, randomX, randomY);
+            circles.push(circle);
+        }
+        draw();
+    }
+    drawCircles();
 
-                        function draw() {
-                            mainContext.clearRect(0, 0, 1700, 800);
+    function draw() {
+        mainContext.clearRect(0, 0, 1700, 800);
 
-                            for (var i = 0; i < circles.length; i++) {
-                                var myCircle = circles[i];
-                                myCircle.update();
-                            }
-                            requestAnimationFrame(draw);
-                        }
-                        $(document).ready(function(){
-    $("button").click(function(){
-        $(".one").animate({right: '1px'});
+        for (var i = 0; i < circles.length; i++) {
+            var myCircle = circles[i];
+            myCircle.update();
+        }
+        requestAnimationFrame(draw);
+    }
+    $(document).ready(function () {
+        $("button").click(function () {
+            $(".one").animate({right: '1px'});
+        });
     });
-});
-$(document).ready(function(){
-    $("button").click(function(){
-        $(".two").transition({ x: '-1300px'}, 1000, 'linear');
+    $(document).ready(function () {
+        $("button").click(function () {
+            $(".two").transition({x: '-1300px'}, 1000, 'linear');
+        });
     });
-});
-$(document).ready(function(){
-    $("button").click(function(){
-        $(".three").transition({ x: '1500px'}, 1000, 'linear');
+    $(document).ready(function () {
+        $("button").click(function () {
+            $(".three").transition({x: '1500px'}, 1000, 'linear');
+        });
     });
-});
-                    </script>
+</script>
