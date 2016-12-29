@@ -15,13 +15,15 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <a href="/projects.php">
-                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="width: 100%" >
+                <img class="img-responsive center-block" src="myportfolio/images/dateYourMate.JPG" alt="Image" style="width: 100%" >
                 <div class="carousel-caption">
                   <a/>
                     <br>
@@ -31,6 +33,14 @@
              <div class="item">
                 <a href="/projects.php">
                 <img class="img-responsive center-block" src="myportfolio/images/sealsavers.jpg" alt="Image" style="width: 100%;" >
+                <div class="carousel-caption">
+                  <a/>
+                    <br>
+                </div>      
+            </div>
+            <div class="item">
+                <a href="/projects.php">
+                <img class="img-responsive center-block" src="myportfolio/images/busybee.JPG" alt="Image" style="width: 100%;" >
                 <div class="carousel-caption">
                   <a/>
                     <br>

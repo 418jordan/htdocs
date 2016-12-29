@@ -12,25 +12,25 @@
 <div class="container text-center">    
     <div class="row">
         <div class="col-sm-4">
-            <a href="/busybeephotography/home.php">
-            <img src="myportfolio/images/busybee.JPG" class="img-responsive" style="width:100%" alt="Image">
+            <a href="/dateYourMate/index.html">
+                <img src="myportfolio/images/dateYourMate.JPG" class="img-responsive" style="width:100%" alt="Image">
             <a/>
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">Busy Bee Photography</button>
-            <div id="demo6" class="collapse">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Date Your Mate</button>
+            <div id="demo1" class="collapse">
                 <ul>
-                    <li class="lefty"><strong>Title: Busy Bee Photography</strong></li>
-                    <li class="lefty"><strong>Type:</strong> Single page</li>
-                    <li class="lefty"><strong>Tech used:</strong> Photoshop CC, HTML, CSS, PHP and JavaScript</li>
-                    <li class="lefty"><strong>Process:</strong> I first came up with the idea of Busy Bee Photography as a mock site by searching through some of my favorite personal photos.  The original picture of the Bee is a picture I had taken.  I then edited the Photo to make it more playful and eye catching.  I feel that this site would make a good portfolio site for anything really.  Be sure to check out the JavaScript sliders.</li>
+                    <li class="lefty"><strong>Title: Date Your Mate</strong></li>
+                    <li class="lefty"><strong>Type:</strong> Single Page</li>
+                    <li class="lefty"><strong>Tech used:</strong> HTML, CSS, Bootstrap, jQuery, Illustrator CC, repl.it and Sketch.io</li>
+                    <li class="lefty"><strong>Process:</strong> Date Your Mate is a dating website that involves good design and functionality.  I wanted the site to have a soft feeling and project the concepts of searching for a mate and coming together.  I did this by using the canvas on the first div to show dots searching aimlessly and on the second div it shows a couple sliding happily together.</li>
                 </ul>
             </div>
         </div>
-        <div class="col-sm-4">
+                <div class="col-sm-4">
             <a href="/sealsavers/index.html">
             <img src="myportfolio/images/sealsavers.jpg" class="img-responsive" style="width:100%" alt="Image">
             <a/>
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Seal Savers</button>
-            <div id="demo7" class="collapse">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Seal Savers</button>
+            <div id="demo2" class="collapse">
                 <ul>
                     <li class="lefty"><strong>Title: Seal Savers</strong></li>
                     <li class="lefty"><strong>Type:</strong> Single page</li>
@@ -40,11 +40,33 @@
             </div>
         </div>
         <div class="col-sm-4">
+            <a href="/busybeephotography/home.php">
+            <img src="myportfolio/images/busybee.JPG" class="img-responsive" style="width:100%" alt="Image">
+            <a/>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Busy Bee Photography</button>
+            <div id="demo3" class="collapse">
+                <ul>
+                    <li class="lefty"><strong>Title: Busy Bee Photography</strong></li>
+                    <li class="lefty"><strong>Type:</strong> Single page</li>
+                    <li class="lefty"><strong>Tech used:</strong> Photoshop CC, HTML, CSS, PHP and JavaScript</li>
+                    <li class="lefty"><strong>Process:</strong> I first came up with the idea of Busy Bee Photography as a mock site by searching through some of my favorite personal photos.  The original picture of the Bee is a picture I had taken.  I then edited the Photo to make it more playful and eye catching.  I feel that this site would make a good portfolio site for anything really.  Be sure to check out the JavaScript sliders.</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<br>
+
+<div class="container text-center">    
+    <div class="row">
+        <div class="col-sm-4">
             <a href="http://www.obidevo.com/">
             <img src="myportfolio/images/Obidevo.JPG" class="img-responsive" style="width:100%" alt="Image">
             <a/>
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Obidevo</button>
-            <div id="demo8" class="collapse">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Obidevo</button>
+            <div id="demo4" class="collapse">
                 <ul>
                     <li class="lefty"><strong>Title: Obidevo</strong></li>
                     <li class="lefty"><strong>Type:</strong> Responsive Website</li>
@@ -53,14 +75,18 @@
                 </ul>
             </div>
         </div>
-    </div>
-</div>
-<br>
-
-<div class="container text-center">    
-    <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-4"> 
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5">Future Project</button>
+            <div id="demo5" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+        <div class="col-sm-4"> 
+            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">Future Project</button>
             <div id="demo6" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -68,7 +94,13 @@
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </div>
         </div>
-        <div class="col-sm-4"> 
+    </div>
+</div>
+<br>
+
+<div class="container text-center">    
+    <div class="row">
+        <div class="col-sm-4">
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Future Project</button>
             <div id="demo7" class="collapse">
@@ -79,33 +111,8 @@
         </div>
         <div class="col-sm-4"> 
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Future Project</button>
             <div id="demo8" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-
-<div class="container text-center">    
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">Future Project</button>
-            <div id="demo6" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-        </div>
-        <div class="col-sm-4"> 
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Future Project</button>
-            <div id="demo7" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -114,21 +121,6 @@
         <div class="col-sm-4"> 
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
 
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Future Project</button>
-            <div id="demo8" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-
-<div class="container text-center">    
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo9">Future Project</button>
             <div id="demo9" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -136,7 +128,13 @@
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </div>
         </div>
-        <div class="col-sm-4"> 
+    </div>
+</div>
+<br>
+
+<div class="container text-center">    
+    <div class="row">
+        <div class="col-sm-4">
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
             <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo10">Future Project</button>
             <div id="demo10" class="collapse">
@@ -145,12 +143,21 @@
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </div>
         </div>
+        <div class="col-sm-4"> 
+            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo11">Future Project</button>
+            <div id="demo11" class="collapse">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
 
         <div class="col-sm-4"> 
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
 
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo11">Future Project</button>
-            <div id="demo11" class="collapse">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo12">Future Project</button>
+            <div id="demo12" class="collapse">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
